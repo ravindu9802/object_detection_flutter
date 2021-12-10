@@ -97,7 +97,6 @@ class _StaticImageState extends State<StaticImage> {
     super.initState();
     _busy = true;
     initializeTts();
-    speak("speaking");
     loadTfModel().then((val) {
       {
         setState(() {
